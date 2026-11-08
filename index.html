@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Çözen Eğitim Kurumları | Okula Destek & LGS Sınava Hazırlık – Manisa</title>
+  <meta name="description" content="Çözen Eğitim Kurumları Manisa (Yunusemre, Şehzadeler, Turgutlu). 2, 3, 4. Sınıf Etüt, 5 ve 6. Sınıf Sınava Ön Hazırlık, 7 ve 8. Sınıf LGS Hazırlık Kursları.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Outfit"', '"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eef4ff',
+              100: '#d9e6ff',
+              200: '#bcd4ff',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#172e6e',
+              900: '#0b1739',
+              950: '#060d24',
+            },
+            gold: {
+              300: '#fcd34d',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html, body {
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+    /* Mimari Grid & Işık Katmanları */
+    .hero-aurora {
+      background-color: #060d24;
+      background-image:
+        radial-gradient(at 12% 18%, rgba(37, 99, 235, 0.42) 0px, transparent 48%),
+        radial-gradient(at 88% 15%, rgba(245, 158, 11, 0.28) 0px, transparent 45%),
+        radial-gradient(at 52% 90%, rgba(14, 165, 233, 0.25) 0px, transparent 52%);
+    }
+    .bg-grid-pattern {
+      background-size: 36px 36px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    }
+    .bg-grid-light {
+      background-size: 32px 32px;
+      background-image: 
+        linear-gradient(to right, rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
+    }
+    .dark .bg-grid-light {
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    }
+    .glass-panel {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+    .premium-card {
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+    }
+    .premium-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 48px -12px rgba(15, 23, 42, 0.14);
+    }
+    .dark .premium-card:hover {
+      box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.65);
+    }
+    /* Özel Range Slider */
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.18);
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #fbbf24;
+      border: 3px solid #060d24;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(251, 191, 36, 0.5);
+      transition: transform 0.15s ease;
+    }
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+    details > summary {
+      list-style: none;
+    }
+    details > summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased selection:bg-brand-600 selection:text-white transition-colors duration-300">
+
+  <!-- ==================== ÜST DUYURU & İLETİŞİM ÇUBUĞU (TOPBAR) ==================== -->
+  <div class="bg-brand-950 text-slate-300 text-xs border-b border-white/10 relative z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-2.5 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex flex-wrap items-center gap-4">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-bold text-[11px]">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> 2026–2027 Kayıt & Bursluluk Dönemi Açık
+        </span>
+        <a href="tel:+902362222727" class="flex items-center gap-1.5 hover:text-gold-400 transition font-bold text-white">
+          <svg class="w-3.5 h-3.5 text-gold-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span>+90 236 222 27 27</span>
+        </a>
+        <span class="hidden md:inline text-white/20">|</span>
+        <a href="mailto:sehzadeler@cozenegitim.com" class="hidden md:flex items-center gap-1.5 hover:text-gold-400 transition">
+          <span>✉️ sehzadeler@cozenegitim.com</span>
+        </a>
+      </div>
+      <div class="flex items-center gap-4 ml-auto">
+        <div class="hidden sm:flex items-center gap-1.5 text-[11px] font-semibold text-slate-300">
+          <span class="text-gold-400">📍</span>
+          <span>Yunusemre</span> · <span>Şehzadeler</span> · <span>Turgutlu</span>
+        </div>
+        <button onclick="openCallbackModal('Ücretsiz Seviye Tespit & Kayıt Randevusu')" class="inline-flex items-center gap-1 text-gold-300 hover:text-gold-400 font-extrabold underline underline-offset-4">
+          Sizi Arayalım →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== ANA NAVİGASYON (STICKY GLASS NAVBAR) ==================== -->
+  <header id="mainNav" class="sticky top-0 z-40 bg-white/85 dark:bg-slate-900/85 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-4">
+      <!-- Kurumsal Logo -->
+      <a href="#anasayfa" class="flex items-center gap-3.5 group shrink-0">
+        <div class="relative w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-800 via-brand-600 to-sky-500 flex items-center justify-center text-white shadow-lg shadow-brand-600/30 group-hover:scale-105 transition duration-300 ring-2 ring-gold-400/40">
+          <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+          </svg>
+          <span class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-gold-400 border-2 border-white dark:border-slate-900"></span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display text-xl sm:text-2xl font-black tracking-tight text-brand-950 dark:text-white leading-none">
+            ÇÖZEN <span class="text-brand-600 dark:text-sky-400">EĞİTİM</span>
+          </span>
+          <span class="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-[0.14em] text-amber-600 dark:text-gold-400 mt-1">
+            Okula Destek · Sınava Hazırlık
+          </span>
+        </div>
+      </a>
+
+      <!-- Masaüstü Menü -->
+      <nav class="hidden xl:flex items-center gap-1 text-[13px] font-extrabold text-slate-600 dark:text-slate-300">
+        <a href="#anasayfa" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">Anasayfa</a>
+        <a href="#kurslar" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">Kurslar (2–8. Sınıf)</a>
+        <a href="#kurumsal" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">Çözen Modeli</a>
+        <a href="#lgs-robotu" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition flex items-center gap-1">
+          <span class="text-amber-500">⚡</span> LGS Robotu
+        </a>
+        <a href="#subeler" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">Şubelerimiz</a>
+        <a href="#yorumlar" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">Veli Yorumları</a>
+        <a href="#blog" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">Blog</a>
+        <a href="#sss" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">SSS</a>
+        <a href="#iletisim" class="px-3.5 py-2 rounded-xl hover:text-brand-600 dark:hover:text-sky-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/70 transition">İletişim</a>
+      </nav>
+
+      <!-- Sağ Aksiyonlar -->
+      <div class="flex items-center gap-2.5">
+        <button id="themeToggleBtn" onclick="toggleDarkMode()" aria-label="Temayı Değiştir" class="w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-100/80 dark:bg-slate-800 flex items-center justify-center text-base hover:border-brand-500 transition shadow-sm">
+          🌙
+        </button>
+        <button onclick="openCallbackModal('Ücretsiz Eğitim Danışmanlığı')" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-700 via-brand-600 to-sky-600 hover:from-brand-600 hover:to-sky-500 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-brand-600/25 transition transform hover:-translate-y-0.5">
+          <span>📲</span> <span>Sizi Arayalım</span>
+        </button>
+        <button id="mobileMenuBtn" onclick="toggleMobileMenu()" aria-label="Menüyü Aç" class="xl:hidden w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobil Açılır Menü -->
+    <div id="mobileMenu" class="hidden xl:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pt-3 pb-6 space-y-1.5 shadow-2xl">
+      <a href="#anasayfa" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">🏠 Anasayfa</a>
+      <a href="#kurslar" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">📚 Kurslarımız (2. Sınıftan 8. Sınıfa)</a>
+      <a href="#kurumsal" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">🏛️ Çözen Eğitim Modeli & Kadromuz</a>
+      <a href="#lgs-robotu" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">🎯 LGS Puan & Lise Hedef Simülatörü</a>
+      <a href="#subeler" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">📍 Şubelerimiz (Yunusemre · Şehzadeler · Turgutlu)</a>
+      <a href="#yorumlar" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">⭐ Veli & Öğrenci Yorumları</a>
+      <a href="#blog" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">📝 Rehberlik Blogu</a>
+      <a href="#sss" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">❓ Sıkça Sorulan Sorular</a>
+      <a href="#franchise-ik" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">🤝 Franchise & İnsan Kaynakları</a>
+      <a href="#iletisim" onclick="closeMobileMenu()" class="block px-4 py-2.5 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800">📞 İletişim</a>
+      <button onclick="closeMobileMenu(); openCallbackModal('Mobil Menü Kayıt Danışmanlığı')" class="w-full mt-3 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-400 text-slate-950 font-extrabold text-sm shadow-lg">
+        📲 Formu Doldurun Sizi Arayalım
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== PREMIUM HERO SECTION ==================== -->
+  <section id="anasayfa" class="hero-aurora text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-pattern pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14 lg:py-24 grid lg:grid-cols-12 gap-12 items-center relative z-10">
+      
+      <!-- Sol Sütun: Değer Önerisi -->
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex flex-wrap items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs font-extrabold tracking-wide">
+          <span class="px-2 py-0.5 rounded-full bg-gold-400 text-slate-950 font-black">MANİSA</span>
+          <span class="text-gold-300">Yunusemre · Şehzadeler · Turgutlu</span>
+          <span class="text-white/30">|</span>
+          <span class="text-sky-300">★ 4.8 Google Memnuniyeti</span>
+        </div>
+
+        <h1 class="font-display text-3xl sm:text-5xl lg:text-[56px] font-black tracking-tight leading-[1.08]">
+          Sadece Ders Değil, <br class="hidden sm:inline">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-sky-300">
+            Geleceği Çözen Sistem!
+          </span>
+        </h1>
+
+        <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl font-medium">
+          İlkokulda (2, 3, 4. sınıf) sağlam temel ve ödev disiplini; ortaokulda (5 ve 6. sınıf) MEB yazılı senaryoları ve sınava ön hazırlık; <strong>7 ve 8. sınıflarda ise birebir koçluk destekli yoğun LGS Hazırlık</strong> programlarımızla Manisa'da başarının adresiyiz.
+        </p>
+
+        <!-- Sınıf Hızlı Seçim Barı -->
+        <div class="pt-1">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2.5">Öğrencinizin Sınıfını Seçin, Programı İnceleyin:</div>
+          <div class="flex flex-wrap gap-2">
+            <button onclick="selectGradeQuick('ilkokul')" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-gold-400 hover:text-slate-950 border border-white/15 text-xs font-extrabold transition">2. Sınıf</button>
+            <button onclick="selectGradeQuick('ilkokul')" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-gold-400 hover:text-slate-950 border border-white/15 text-xs font-extrabold transition">3. Sınıf</button>
+            <button onclick="selectGradeQuick('ilkokul')" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-gold-400 hover:text-slate-950 border border-white/15 text-xs font-extrabold transition">4. Sınıf</button>
+            <button onclick="selectGradeQuick('ortaokul')" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-gold-400 hover:text-slate-950 border border-white/15 text-xs font-extrabold transition">5. Sınıf</button>
+            <button onclick="selectGradeQuick('ortaokul')" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-gold-400 hover:text-slate-950 border border-white/15 text-xs font-extrabold transition">6. Sınıf</button>
+            <button onclick="selectGradeQuick('lgs')" class="px-3.5 py-2 rounded-xl bg-amber-500/20 hover:bg-gold-400 hover:text-slate-950 border border-gold-400/50 text-gold-300 text-xs font-extrabold transition">7. Sınıf LGS</button>
+            <button onclick="selectGradeQuick('lgs')" class="px-3.5 py-2 rounded-xl bg-amber-500/20 hover:bg-gold-400 hover:text-slate-950 border border-gold-400/50 text-gold-300 text-xs font-extrabold transition">8. Sınıf LGS</button>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3.5 pt-2">
+          <a href="#kurslar" class="px-6 py-4 rounded-2xl bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-slate-950 font-extrabold text-sm sm:text-base shadow-xl shadow-gold-500/25 transition transform hover:-translate-y-0.5 flex items-center gap-2">
+            <span>🎓</span> <span>Eğitim Programlarını Keşfet</span>
+          </a>
+          <a href="#lgs-robotu" class="px-6 py-4 rounded-2xl glass-panel hover:bg-white/15 text-white font-bold text-sm sm:text-base transition flex items-center gap-2">
+            <span>🎯</span> <span>LGS Puan & Lise Simülatörü</span>
+          </a>
+        </div>
+
+        <!-- İstatistik Rozetleri -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4">
+          <div class="glass-panel rounded-2xl p-4">
+            <div class="font-display text-2xl sm:text-3xl font-black text-gold-400">12 Kişilik</div>
+            <div class="text-xs text-slate-300 font-semibold mt-0.5">Butik VİP Sınıflar</div>
+          </div>
+          <div class="glass-panel rounded-2xl p-4">
+            <div class="font-display text-2xl sm:text-3xl font-black text-sky-400">3 Kampüs</div>
+            <div class="text-xs text-slate-300 font-semibold mt-0.5">Yunusemre · Şehzadeler · Turgutlu</div>
+          </div>
+          <div class="glass-panel rounded-2xl p-4">
+            <div class="font-display text-2xl sm:text-3xl font-black text-emerald-400">%96</div>
+            <div class="text-xs text-slate-300 font-semibold mt-0.5">Veli Tavsiye Oranı</div>
+          </div>
+          <div class="glass-panel rounded-2xl p-4">
+            <div class="font-display text-2xl sm:text-3xl font-black text-purple-300">7 Gün</div>
+            <div class="text-xs text-slate-300 font-semibold mt-0.5">Kütüphane & Etüt Desteği</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sağ Sütun: Kurumsal Randevu & Seviye Tespit Başvuru Kartı -->
+      <div class="lg:col-span-5">
+        <div class="relative">
+          <!-- Dekoratif Arka Plan Işığı -->
+          <div class="absolute -inset-1 bg-gradient-to-r from-gold-400 via-brand-500 to-sky-400 rounded-[28px] blur-lg opacity-45"></div>
+          
+          <div class="relative bg-white dark:bg-slate-900 text-slate-900 dark:text-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-200/90 dark:border-slate-800">
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="px-3 py-1 rounded-full bg-brand-50 dark:bg-brand-900/70 text-brand-600 dark:text-sky-400 text-xs font-extrabold uppercase tracking-wider">
+                📋 Ücretsiz Tanışma & Analiz
+              </span>
+              <span class="text-xs font-bold text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span> Hızlı Dönüş
+              </span>
+            </div>
+
+            <h2 class="font-display text-2xl font-extrabold tracking-tight">Formu Doldurun, Sizi Arayalım!</h2>
+            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 mb-5">
+              Ücretsiz <strong>Akademik Check-Up (Seviye Tespit Sınavı)</strong> ve şube kontenjan bilgisi için numaranızı bırakın, eğitim danışmanımız sizi arasın.
+            </p>
+
+            <form id="heroLeadForm" onsubmit="submitLeadForm(event, 'heroLeadForm')" class="space-y-3.5">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Veli veya Öğrenci Adı Soyadı *</label>
+                <input type="text" required placeholder="Örn: Ayşe Yılmaz" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/90 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Cep Telefonunuz *</label>
+                  <input type="tel" required placeholder="05XX XXX XX XX" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/90 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Şube Tercihiniz *</label>
+                  <select required class="w-full px-3.5 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/90 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                    <option value="Yunusemre Şubesi">📍 Yunusemre Şubesi</option>
+                    <option value="Şehzadeler Şubesi">📍 Şehzadeler Şubesi</option>
+                    <option value="Turgutlu Şubesi">📍 Turgutlu Şubesi</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">İlgilendiğiniz Sınıf / Program *</label>
+                <select required class="w-full px-3.5 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/90 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                  <option value="8. Sınıf LGS Hazırlık">🏆 8. Sınıf LGS Hazırlık Kampı</option>
+                  <option value="7. Sınıf LGS Hazırlık">🎯 7. Sınıf LGS Hazırlık Programı</option>
+                  <option value="6. Sınıf Etüt ve Sınava Ön Hazırlık">🔬 6. Sınıf Etüt ve Sınava Ön Hazırlık</option>
+                  <option value="5. Sınıf Etüt ve Sınava Ön Hazırlık">🧭 5. Sınıf Etüt ve Sınava Ön Hazırlık</option>
+                  <option value="4. Sınıf Etüt">⭐ 4. Sınıf İlkokul Etüt</option>
+                  <option value="3. Sınıf Etüt">🚀 3. Sınıf İlkokul Etüt</option>
+                  <option value="2. Sınıf Etüt">🌱 2. Sınıf İlkokul Etüt</option>
+                </select>
+              </div>
+
+              <label class="flex items-start gap-2.5 text-xs text-slate-500 dark:text-slate-400 cursor-pointer pt-1">
+                <input type="checkbox" required class="mt-0.5 rounded text-brand-600 focus:ring-brand-500">
+                <span><button type="button" onclick="openKvkkModal()" class="underline font-bold text-brand-600 dark:text-sky-400">KVKK Aydınlatma Metni</button>'ni okudum ve tarafımla iletişime geçilmesini onaylıyorum.</span>
+              </label>
+
+              <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-700 via-brand-600 to-sky-600 hover:from-brand-600 hover:to-sky-500 text-white font-extrabold text-sm shadow-xl shadow-brand-600/30 transition transform hover:-translate-y-0.5">
+                🚀 Ücretsiz Randevu & Bilgi Talep Et
+              </button>
+            </form>
+
+            <div class="mt-4 pt-3.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 font-semibold">
+              <span>🔒 Bilgileriniz KVKK güvencesindedir</span>
+              <span>⏱️ Ortalama dönüş: 15 dk</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== GÜVEN & ÖZELLİK ŞERİDİ ==================== -->
+  <div class="bg-white dark:bg-slate-900 border-b border-slate-200/80 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-4 text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300">
+      <div class="flex items-center gap-3">
+        <span class="w-10 h-10 rounded-xl bg-brand-50 dark:bg-brand-900/50 text-brand-600 dark:text-sky-400 flex items-center justify-center text-lg shrink-0">📊</span>
+        <span>Kazanım Bazlı Türkiye Geneli Deneme Analizi</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-500/15 text-amber-600 dark:text-gold-400 flex items-center justify-center text-lg shrink-0">🧭</span>
+        <span>Her Öğrenciye Özel Birebir Eğitim Koçu</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg shrink-0">✍️</span>
+        <span>MEB Açık Uçlu Yazılı Senaryo Kampları</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-500/15 text-purple-600 dark:text-purple-300 flex items-center justify-center text-lg shrink-0">📱</span>
+        <span>Anlık Veli Yoklama & Ödev Takip Sistemi</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== KURSLARIMIZ (2. SINIFTAN 8. SINIFA) ==================== -->
+  <section id="kurslar" class="py-16 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+      <div>
+        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-brand-100 dark:bg-brand-900/80 text-brand-700 dark:text-sky-300 text-xs font-extrabold uppercase tracking-wider mb-3">
+          <span>🎓</span> Kademeli Eğitim Programlarımız
+        </span>
+        <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight text-slate-900 dark:text-white">
+          2. Sınıftan 8. Sınıfa <span class="text-brand-600 dark:text-sky-400">Akademik Yol Haritası</span>
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-2 max-w-2xl text-sm sm:text-base">
+          Her sınıf düzeyinin pedagojik ihtiyacı farklıdır. Öğrencinizin sınıfına özel hazırladığımız ders saatlerini, etüt sistemini ve örnek haftalık programı inceleyin.
+        </p>
+      </div>
+
+      <!-- Filtre Sekmeleri -->
+      <div class="flex flex-wrap gap-2 bg-slate-100 dark:bg-slate-900 p-1.5 rounded-2xl border border-slate-200 dark:border-slate-800" id="courseFilterBar">
+        <button onclick="filterCourses('all')" data-cfilter="all" class="cfilter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold bg-brand-600 text-white shadow">
+          Tümü (7 Program)
+        </button>
+        <button onclick="filterCourses('ilkokul')" data-cfilter="ilkokul" class="cfilter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-600">
+          🎒 İlkokul Etüt (2–4)
+        </button>
+        <button onclick="filterCourses('ortaokul')" data-cfilter="ortaokul" class="cfilter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-600">
+          🧭 Ön Hazırlık (5–6)
+        </button>
+        <button onclick="filterCourses('lgs')" data-cfilter="lgs" class="cfilter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-600">
+          🏆 LGS Hazırlık (7–8)
+        </button>
+      </div>
+    </div>
+
+    <!-- Kurs Kartları Grid -->
+    <div id="coursesGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7"></div>
+  </section>
+
+  <!-- ==================== BENTO GRID: ÇÖZEN EĞİTİM MODELİ & KURUMSAL ==================== -->
+  <section id="kurumsal" class="py-16 lg:py-24 bg-grid-light bg-slate-100/80 dark:bg-slate-900/50 border-y border-slate-200/80 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 text-xs font-extrabold uppercase tracking-wider mb-3">
+          Neden Çözen Eğitim Kurumları?
+        </span>
+        <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight">
+          Ezberleten Değil, <span class="text-brand-600 dark:text-sky-400">Mantığını Çözen</span> 360° Takip Sistemi
+        </h2>
+        <p class="text-slate-600 dark:text-slate-400 mt-2.5 text-sm sm:text-base">
+          Manisa Yunusemre, Şehzadeler ve Turgutlu kampüslerimizde her öğrencimizi kendi öğrenme hızında destekleyen 4 aşamalı kurumsal başarı modeli uyguluyoruz.
+        </p>
+      </div>
+
+      <!-- Bento Grid -->
+      <div class="grid lg:grid-cols-12 gap-6">
+        <!-- Bento 1: Büyük Sol Kart (Akademik Check-up & Eksik Kapatma) -->
+        <div class="lg:col-span-7 bg-white dark:bg-slate-900 rounded-3xl p-7 sm:p-9 border border-slate-200/90 dark:border-slate-800 shadow-xl flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <span class="px-3.5 py-1 rounded-full bg-brand-50 dark:bg-brand-900 text-brand-600 dark:text-sky-400 text-xs font-extrabold">
+                1. Aşama · Nokta Atışı Teşhis
+              </span>
+              <span class="text-2xl">📊</span>
+            </div>
+            <h3 class="font-display text-xl sm:text-2xl font-extrabold mb-3">Kazanım Bazlı Yapay Zekâ Karne & Birebir Etüt</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
+              Her deneme sınavı sonrasında öğrencimizin sadece netine bakmıyoruz; hangi dersin hangi alt kazanımında (örneğin <em>Üslü İfadeler</em> veya <em>Paragrafta Çıkarım</em>) eksiği olduğunu tespit edip o hafta <strong>birebir soru çözüm ofisinde</strong> o konuyu tamamlıyoruz.
+            </p>
+          </div>
+
+          <!-- Örnek Öğrenci Gelişim Barı Görseli -->
+          <div class="bg-slate-50 dark:bg-slate-800/80 rounded-2xl p-5 border border-slate-200/70 dark:border-slate-700 space-y-3">
+            <div class="flex items-center justify-between text-xs font-extrabold">
+              <span class="text-slate-500 dark:text-slate-400">Örnek Öğrenci Kazanım Tamamlama Raporu</span>
+              <span class="text-emerald-600 dark:text-emerald-400">+22 Net Artışı (3. Ay)</span>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs font-bold mb-1"><span>📐 Matematik Yeni Nesil Muhakeme</span><span>%92</span></div>
+              <div class="h-2.5 w-full bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
+                <div class="h-full bg-gradient-to-r from-brand-600 to-sky-400 rounded-full" style="width:92%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs font-bold mb-1"><span>🦉 Türkçe Paragraf & Sözel Mantık</span><span>%95</span></div>
+              <div class="h-2.5 w-full bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
+                <div class="h-full bg-gradient-to-r from-amber-500 to-gold-300 rounded-full" style="width:95%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs font-bold mb-1"><span>🔬 Fen Bilimleri Deneysel Yorumlama</span><span>%89</span></div>
+              <div class="h-2.5 w-full bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
+                <div class="h-full bg-gradient-to-r from-emerald-600 to-teal-400 rounded-full" style="width:89%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento 2: Sağ Koyu Kart (Bireysel Eğitim Koçluğu) -->
+        <div class="lg:col-span-5 bg-gradient-to-br from-brand-950 via-brand-900 to-slate-900 text-white rounded-3xl p-7 sm:p-9 shadow-xl border border-white/10 flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <span class="px-3.5 py-1 rounded-full bg-gold-400/20 text-gold-300 text-xs font-extrabold">
+                2. Aşama · Koçluk & Motivasyon
+              </span>
+              <span class="text-2xl">🧭</span>
+            </div>
+            <h3 class="font-display text-xl sm:text-2xl font-extrabold mb-3">Birebir Eğitim Koçluğu ve Haftalık Planlama</h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Öğrencimiz eve gittiğinde "Bugün ne çalışacağım?" karmaşası yaşamaz. Koç öğretmeniyle birlikte haftalık soru hedefi belirlenir ve velimize düzenli SMS/WhatsApp raporu iletilir.
+            </p>
+            <ul class="space-y-2.5 text-xs sm:text-sm font-semibold text-slate-200">
+              <li class="flex items-center gap-2.5"><span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-300 flex items-center justify-center text-xs">✓</span> Günlük Soru Çözüm ve Ödev Kontrolü</li>
+              <li class="flex items-center gap-2.5"><span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-300 flex items-center justify-center text-xs">✓</span> Sınav Kaygısı ve Süre Yönetimi Seminerleri</li>
+              <li class="flex items-center gap-2.5"><span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-300 flex items-center justify-center text-xs">✓</span> Sessiz Kütüphane ve Kamplı Çalışma Saatleri</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-5 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs text-gold-300 font-bold">Her 12 öğrenciye 1 Eğitim Koçu</span>
+            <button onclick="openCallbackModal('Eğitim Koçluğu Sistemi Bilgisi')" class="text-xs font-extrabold underline text-white hover:text-gold-300">Detaylı Bilgi →</button>
+          </div>
+        </div>
+
+        <!-- Bento 3: Alt Sol (Uzman Zümre Kadromuz) -->
+        <div class="lg:col-span-6 bg-white dark:bg-slate-900 rounded-3xl p-7 border border-slate-200/90 dark:border-slate-800 shadow-lg premium-card">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-extrabold uppercase tracking-wider text-brand-600 dark:text-sky-400">3. Aşama · Akademik Kadro</span>
+            <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-[11px] font-extrabold">Uzman Zümreler</span>
+          </div>
+          <h3 class="font-display text-xl font-extrabold mb-4">Alanında Uzman Branş ve Sınıf Öğretmenleri</h3>
+          <div class="grid sm:grid-cols-2 gap-3 text-xs">
+            <div class="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+              <strong class="block text-sm font-extrabold text-brand-700 dark:text-sky-300 mb-1">📐 Matematik Zümresi</strong>
+              <span class="text-slate-500 dark:text-slate-400">"LGS Matematikten Korkmuyorum" atölyesiyle yeni nesil soru çözüm teknikleri.</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+              <strong class="block text-sm font-extrabold text-amber-600 dark:text-gold-400 mb-1">🦉 Türkçe & Paragraf</strong>
+              <span class="text-slate-500 dark:text-slate-400">Anlam bilgisi, sözel mantık ve MEB senaryo yazılılarına tam hazırlık.</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+              <strong class="block text-sm font-extrabold text-emerald-600 dark:text-emerald-400 mb-1">🔬 Fen & Deneysel Analiz</strong>
+              <span class="text-slate-500 dark:text-slate-400">Beceri temelli deney sorularını hızlı okuma ve yorumlama çalışmaları.</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+              <strong class="block text-sm font-extrabold text-purple-600 dark:text-purple-400 mb-1">🌱 İlkokul Etüt Zümresi</strong>
+              <span class="text-slate-500 dark:text-slate-400">2, 3 ve 4. sınıflarda ödev disiplini, okuma-anlama ve temel matematik.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento 4: Alt Sağ (Türkiye Geneli Yayın Havuzu) -->
+        <div class="lg:col-span-6 bg-white dark:bg-slate-900 rounded-3xl p-7 border border-slate-200/90 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600 dark:text-gold-400">4. Aşama · Sınav & Yayın Kulübü</span>
+              <span class="text-xl">📚</span>
+            </div>
+            <h3 class="font-display text-xl font-extrabold mb-2">Seçkin Yayınlar & Türkiye Geneli Deneme Kulübü</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+              Öğrencilerimiz yıl boyunca tek bir kaynağa bağlı kalmaz; Türkiye'nin en seçkin yayınlarının kurumsal denemeleriyle gerçek sınav atmosferini her hafta yaşar.
+            </p>
+            <div class="grid grid-cols-3 gap-2.5 text-center">
+              <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+                <div class="font-display text-lg font-black text-brand-600 dark:text-sky-400">40+</div>
+                <div class="text-[11px] font-bold text-slate-500 dark:text-slate-400">TG Deneme Sınavı</div>
+              </div>
+              <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+                <div class="font-display text-lg font-black text-amber-600 dark:text-gold-400">MEB</div>
+                <div class="text-[11px] font-bold text-slate-500 dark:text-slate-400">Senaryo Yazılı Kampı</div>
+              </div>
+              <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">
+                <div class="font-display text-lg font-black text-emerald-600 dark:text-emerald-400">%100</div>
+                <div class="text-[11px] font-bold text-slate-500 dark:text-slate-400">Video & Birebir Çözüm</div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-500 font-semibold">Dışarıdan öğrenciler için Deneme Kulübü kaydımız vardır.</span>
+            <button onclick="openCallbackModal('Türkiye Geneli Deneme Kulübü Kaydı')" class="text-xs font-extrabold text-brand-600 dark:text-sky-400 hover:underline">Kulübe Katıl →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== İNTERAKTİF LGS PUAN, YÜZDELİK DİLİM & MANİSA LİSE HEDEF ROBOTU ==================== -->
+  <section id="lgs-robotu" class="py-16 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="hero-aurora text-white rounded-[32px] p-6 sm:p-10 lg:p-12 shadow-2xl border border-white/15 relative overflow-hidden">
+      <div class="absolute inset-0 bg-grid-pattern pointer-events-none"></div>
+      <div class="grid lg:grid-cols-12 gap-10 items-center relative z-10">
+        
+        <!-- Sol Açıklama -->
+        <div class="lg:col-span-5 space-y-5">
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-gold-400/20 border border-gold-400/40 text-gold-300 text-xs font-extrabold uppercase tracking-wider">
+            <span>🎯</span> Manisa LGS Hedef Simülatörü
+          </span>
+          <h2 class="font-display text-2xl sm:text-4xl font-black leading-tight">
+            Deneme Netlerini Gir, <span class="text-gold-400">Hedef Lisen</span> İçin Yol Haritanı Gör!
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Sürgüleri kaydırarak mevcut deneme netlerini gir; tahmini LGS puanını, yüzdelik dilimini ve <strong>Manisa / Turgutlu'daki nitelikli liselere</strong> yakınlığını anında hesapla.
+          </p>
+
+          <!-- Hedef Lise Kutusu -->
+          <div class="glass-panel rounded-2xl p-5 space-y-2 border-l-4 border-l-gold-400">
+            <div class="flex items-center justify-between text-xs font-extrabold text-gold-300 uppercase tracking-wider">
+              <span>🏫 Puan Bandına Uygun Hedef Liseler</span>
+              <span id="lgsPercentileBadge" class="px-2.5 py-0.5 rounded-full bg-gold-400 text-slate-950 font-black">%4.8 Dilim</span>
+            </div>
+            <div id="lgsTargetSchools" class="text-sm font-bold text-white leading-snug">
+              Manisa Sosyal Bilimler Lisesi · Gediz Anadolu Lisesi · Turgutlu Halil Kale Fen Lisesi (Hedef Potansiyeli)
+            </div>
+            <p id="lgsCoachAdvice" class="text-xs text-slate-300 pt-1">
+              Haftalık birebir Matematik ve Fen yeni nesil soru atölyemizle netlerini +12 artırarak Fen Lisesi bandına yerleşebilirsin!
+            </p>
+          </div>
+        </div>
+
+        <!-- Sağ Slider & Sonuç Paneli -->
+        <div class="lg:col-span-7 glass-panel rounded-3xl p-6 sm:p-8">
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div class="bg-slate-950/40 p-4 rounded-2xl border border-white/10">
+              <div class="flex justify-between text-xs sm:text-sm font-extrabold mb-2">
+                <span>🦉 Türkçe (Katsayı: 4)</span>
+                <span class="text-gold-400"><span id="valTr">17</span> / 20 Net</span>
+              </div>
+              <input type="range" id="rngTr" min="0" max="20" value="17" oninput="calcLgsScore()" class="w-full">
+            </div>
+
+            <div class="bg-slate-950/40 p-4 rounded-2xl border border-white/10">
+              <div class="flex justify-between text-xs sm:text-sm font-extrabold mb-2">
+                <span>📐 Matematik (Katsayı: 4)</span>
+                <span class="text-gold-400"><span id="valMat">15</span> / 20 Net</span>
+              </div>
+              <input type="range" id="rngMat" min="0" max="20" value="15" oninput="calcLgsScore()" class="w-full">
+            </div>
+
+            <div class="bg-slate-950/40 p-4 rounded-2xl border border-white/10">
+              <div class="flex justify-between text-xs sm:text-sm font-extrabold mb-2">
+                <span>🔬 Fen Bilimleri (Katsayı: 4)</span>
+                <span class="text-gold-400"><span id="valFen">17</span> / 20 Net</span>
+              </div>
+              <input type="range" id="rngFen" min="0" max="20" value="17" oninput="calcLgsScore()" class="w-full">
+            </div>
+
+            <div class="bg-slate-950/40 p-4 rounded-2xl border border-white/10">
+              <div class="flex justify-between text-xs sm:text-sm font-extrabold mb-2">
+                <span>🌍 İnkılap + Din + İng. (30 Soru)</span>
+                <span class="text-gold-400"><span id="valAra">27</span> / 30 Net</span>
+              </div>
+              <input type="range" id="rngAra" min="0" max="30" value="27" oninput="calcLgsScore()" class="w-full">
+            </div>
+          </div>
+
+          <!-- Alt Puan Göstergesi -->
+          <div class="mt-6 pt-6 border-t border-white/15 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-6 sm:gap-8">
+              <div>
+                <div class="text-[11px] uppercase tracking-wider text-slate-300 font-bold">Toplam Net</div>
+                <div class="font-display text-2xl sm:text-3xl font-black text-white"><span id="lgsTotalNet">76</span> <span class="text-sm font-bold text-slate-400">/ 90</span></div>
+              </div>
+              <div class="h-10 w-px bg-white/15"></div>
+              <div>
+                <div class="text-[11px] uppercase tracking-wider text-slate-300 font-bold">Tahmini LGS Puanı</div>
+                <div class="font-display text-2xl sm:text-3xl font-black text-gold-400" id="lgsEstScore">446 Puan</div>
+              </div>
+            </div>
+
+            <button onclick="openCallbackModal('LGS Net Analizi ve Kişisel Etüt Planı')" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-slate-950 font-extrabold text-xs sm:text-sm shadow-lg transition">
+              📈 Netlerimi Artırmak İçin Randevu Al →
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ŞUBELERİMİZ (MANİSA KAMPÜSLERİ) ==================== -->
+  <section id="subeler" class="py-16 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="inline-block px-3.5 py-1 rounded-full bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-sky-300 text-xs font-extrabold uppercase tracking-wider mb-3">
+        Manisa Kampüslerimiz
+      </span>
+      <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight">Size En Yakın <span class="text-brand-600 dark:text-sky-400">Çözen Eğitim Şubesi</span></h2>
+      <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base mt-2">
+        Yunusemre, Şehzadeler ve Turgutlu'daki merkezi kampüslerimizde ferah derslikler, birebir etüt kabinleri ve sessiz kütüphane ortamıyla hizmetinizdeyiz.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-7">
+      <!-- Yunusemre Şubesi -->
+      <div class="bg-white dark:bg-slate-900 rounded-3xl p-7 border border-slate-200/90 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-4">
+            <span class="px-3 py-1 rounded-full bg-brand-50 dark:bg-brand-900/60 text-brand-600 dark:text-sky-400 text-xs font-extrabold">
+              Yunusemre Kampüsü
+            </span>
+            <span class="inline-flex items-center gap-1 text-xs font-extrabold text-amber-500 bg-amber-50 dark:bg-amber-500/10 px-2.5 py-1 rounded-full">★ 4.8 (84 Yorum)</span>
+          </div>
+          <h3 class="font-display text-xl font-extrabold mb-2">Yunusemre Şubesi</h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+            📍 Ayn-i Ali Mahallesi 3302 Sokak No:5-A Yunusemre / Manisa
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">📚 Sessiz Kütüphane</span>
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">🎯 Birebir Etüt</span>
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">❄️ İklimlendirme</span>
+          </div>
+          <div class="space-y-2 text-xs font-semibold text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/70 p-4 rounded-2xl border border-slate-200/60 dark:border-slate-700">
+            <div>📞 Telefon: <a href="tel:+902362222727" class="text-brand-600 dark:text-sky-400 font-extrabold">+90 236 222 27 27</a></div>
+            <div>✉️ E-posta: sehzadeler@cozenegitim.com</div>
+            <div>🕒 Saatler: Pzt – Paz: 09:00 – 19:30</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-2.5 mt-6">
+          <a href="tel:+902362222727" class="py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-center font-extrabold text-xs transition">📞 Hemen Ara</a>
+          <button onclick="openCallbackModal('Yunusemre Şubesi Kayıt Görüşmesi')" class="py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-xs shadow-md shadow-brand-600/20 transition">Randevu Al →</button>
+        </div>
+      </div>
+
+      <!-- Şehzadeler Şubesi -->
+      <div class="bg-white dark:bg-slate-900 rounded-3xl p-7 border-2 border-brand-500 shadow-xl flex flex-col justify-between premium-card relative">
+        <span class="absolute -top-3.5 right-6 px-3 py-1 rounded-full bg-gradient-to-r from-brand-600 to-sky-500 text-white text-[10px] font-extrabold uppercase tracking-wider shadow">Merkezi Konum</span>
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-4">
+            <span class="px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 text-xs font-extrabold">
+              Şehzadeler Kampüsü
+            </span>
+            <span class="inline-flex items-center gap-1 text-xs font-extrabold text-amber-500 bg-amber-50 dark:bg-amber-500/10 px-2.5 py-1 rounded-full">★ 4.8 (46 Yorum)</span>
+          </div>
+          <h3 class="font-display text-xl font-extrabold mb-2">Şehzadeler Şubesi</h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+            📍 2. Anafartalar Mah. Cumhuriyet Cad. No:52 (1. Anafartalar 1614. Sk.) Şehzadeler / Manisa
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">🏆 LGS Kamp Merkezi</span>
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">🧭 Koçluk Ofisi</span>
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">📖 Etüt Salonu</span>
+          </div>
+          <div class="space-y-2 text-xs font-semibold text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/70 p-4 rounded-2xl border border-slate-200/60 dark:border-slate-700">
+            <div>📞 Telefon: <a href="tel:+902362222727" class="text-brand-600 dark:text-sky-400 font-extrabold">+90 236 222 27 27</a></div>
+            <div>✉️ E-posta: sehzadeler@cozenegitim.com</div>
+            <div>🕒 Saatler: Pzt – Paz: 08:30 – 20:30</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-2.5 mt-6">
+          <a href="tel:+902362222727" class="py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-center font-extrabold text-xs transition">📞 Hemen Ara</a>
+          <button onclick="openCallbackModal('Şehzadeler Şubesi Kayıt Görüşmesi')" class="py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-xs shadow-md shadow-brand-600/20 transition">Randevu Al →</button>
+        </div>
+      </div>
+
+      <!-- Turgutlu Şubesi -->
+      <div class="bg-white dark:bg-slate-900 rounded-3xl p-7 border border-slate-200/90 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-4">
+            <span class="px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-extrabold">
+              Turgutlu Kampüsü
+            </span>
+            <span class="inline-flex items-center gap-1 text-xs font-extrabold text-amber-500 bg-amber-50 dark:bg-amber-500/10 px-2.5 py-1 rounded-full">★ 4.8 (65 Yorum)</span>
+          </div>
+          <h3 class="font-display text-xl font-extrabold mb-2">Turgutlu Şubesi</h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+            📍 Şehitler Mah. Şehitler Yolu Cad. No: 1/2/3 Turgutlu / Manisa
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">🎒 İlkokul & Ortaokul</span>
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">🎯 LGS Hazırlık</span>
+            <span class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800">📊 TG Deneme</span>
+          </div>
+          <div class="space-y-2 text-xs font-semibold text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/70 p-4 rounded-2xl border border-slate-200/60 dark:border-slate-700">
+            <div>📞 Telefon: <a href="tel:+902363140314" class="text-brand-600 dark:text-sky-400 font-extrabold">(0236) 314 03 14</a></div>
+            <div>✉️ E-posta: sehzadeler@cozenegitim.com</div>
+            <div>🕒 Saatler: Pzt – Paz: 10:00 – 19:00</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-2.5 mt-6">
+          <a href="tel:+902363140314" class="py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-center font-extrabold text-xs transition">📞 Hemen Ara</a>
+          <button onclick="openCallbackModal('Turgutlu Şubesi Kayıt Görüşmesi')" class="py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-xs shadow-md shadow-brand-600/20 transition">Randevu Al →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== VELİ & ÖĞRENCİ YORUMLARI (GOOGLE 4.8/5) ==================== -->
+  <section id="yorumlar" class="py-16 lg:py-20 bg-slate-100/80 dark:bg-slate-900/60 border-t border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+        <div>
+          <span class="inline-block px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 text-xs font-extrabold uppercase tracking-wider mb-2">
+            ★ 4.8 / 5 Google Veli Memnuniyeti
+          </span>
+          <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight">Velilerimiz ve Öğrencilerimiz <span class="text-brand-600 dark:text-sky-400">Ne Diyor?</span></h2>
+        </div>
+        <button onclick="openCallbackModal('Veli Referans ve Tanışma Görüşmesi')" class="text-xs sm:text-sm font-extrabold text-brand-600 dark:text-sky-400 hover:underline">
+          Siz de Ailemize Katılın →
+        </button>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200/80 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-amber-400 text-sm">★★★★★</span>
+              <span class="text-[11px] font-bold text-slate-400">Yunusemre Şubesi · 8. Sınıf Velisi</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic">
+              "Oğlum 7. sınıfta matematik yeni nesil sorulardan çok korkuyordu. Çözen Eğitim'deki birebir soru çözüm saatleri ve koç öğretmenimizin günlük takibi sayesinde LGS'de %2,4'lük dilime girdi. Tüm öğretmenlerimize minnettarız."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-brand-600 text-white font-extrabold text-xs flex items-center justify-center">S.K</div>
+            <div>
+              <div class="text-xs font-extrabold">Serap K.</div>
+              <div class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold">✓ Doğrulanmış Veli Yorumu</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200/80 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-amber-400 text-sm">★★★★★</span>
+              <span class="text-[11px] text-slate-400 font-bold">Turgutlu Şubesi · 4. Sınıf Velisi</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic">
+              "Çalışan bir anne olarak akşamları evde ödev krizleri yaşıyorduk. 3. sınıftan beri Çözen Etüt programına devam ediyoruz; kızım hem ödevlerini kurumda bitiriyor hem de okuma-anlama hızı inanılmaz gelişti."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-amber-500 text-slate-950 font-extrabold text-xs flex items-center justify-center">M.A</div>
+            <div>
+              <div class="text-xs font-extrabold">Murat A.</div>
+              <div class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold">✓ Doğrulanmış Veli Yorumu</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200/80 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-amber-400 text-sm">★★★★★</span>
+              <span class="text-[11px] text-slate-400 font-bold">Şehzadeler Şubesi · 6. Sınıf Velisi</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic">
+              "MEB açık uçlu yazılı senaryolarına geçişte çok endişeliydik. Kurumun yazılı haftası yaptığı senaryo kampları sayesinde tüm derslerimiz 95 üstü geldi. Sınıfların az mevcutlu olması büyük avantaj."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-emerald-600 text-white font-extrabold text-xs flex items-center justify-center">G.T</div>
+            <div>
+              <div class="text-xs font-extrabold">Gülşen T.</div>
+              <div class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold">✓ Doğrulanmış Veli Yorumu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EĞİTİM BLOGU (COZENEGITIM.COM MAKALELERİ) ==================== -->
+  <section id="blog" class="py-16 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+      <div>
+        <span class="inline-block px-3.5 py-1 rounded-full bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-sky-300 text-xs font-extrabold uppercase tracking-wider mb-2">
+          Çözen Eğitim Rehberlik Blogu
+        </span>
+        <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight">Pedagojik <span class="text-brand-600 dark:text-sky-400">Eğitim Yazılarımız</span></h2>
+      </div>
+      <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-semibold">
+        Zümre başkanlarımızın öğrencilerimiz ve velilerimiz için kaleme aldığı makaleler.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6" id="blogGrid"></div>
+  </section>
+
+  <!-- ==================== SIKÇA SORULAN SORULAR (SSS AKORDEON) ==================== -->
+  <section id="sss" class="py-16 lg:py-20 bg-slate-100/80 dark:bg-slate-900/60 border-y border-slate-200 dark:border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 text-xs font-extrabold uppercase tracking-wider mb-2">
+          Merak Edilenler
+        </span>
+        <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight">Sıkça Sorulan <span class="text-brand-600 dark:text-sky-400">Sorular</span></h2>
+      </div>
+
+      <div class="space-y-3.5">
+        <details class="group bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-sm" open>
+          <summary class="flex items-center justify-between cursor-pointer font-extrabold text-sm sm:text-base">
+            <span>1. Sınıf mevcutlarınız kaç kişiliktir ve seviye grupları nasıl belirlenir?</span>
+            <span class="w-7 h-7 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            Sınıflarımız maksimum 10–12 kişilik butik VİP gruplardan oluşur. Kayıt öncesinde uyguladığımız ücretsiz Akademik Check-Up (Seviye Tespit Sınavı) ile öğrencilerimiz kendi hazırbulunuşluk düzeylerine en uygun homojen sınıflara yerleştirilir.
+          </p>
+        </details>
+
+        <details class="group bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
+          <summary class="flex items-center justify-between cursor-pointer font-extrabold text-sm sm:text-base">
+            <span>2. İlkokul (2, 3, 4. sınıf) etüt programında günlük akış nasıl işliyor?</span>
+            <span class="w-7 h-7 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            Okul öncesi veya okul sonrası gelen ilkokul öğrencilerimiz öncelikle sınıf öğretmenleri eşliğinde günlük okul ödevlerini eksiksiz tamamlar. Ardından o günün konu tekrarı, okuma-anlama atölyesi ve akıl-zeka oyunları yapılarak eve ödev yükü kalmadan gönderilir.
+          </p>
+        </details>
+
+        <details class="group bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
+          <summary class="flex items-center justify-between cursor-pointer font-extrabold text-sm sm:text-base">
+            <span>3. 7 ve 8. Sınıf LGS Hazırlıkta kaç deneme sınavı uygulanıyor?</span>
+            <span class="w-7 h-7 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            LGS gruplarımızda yıl boyunca 40'tan fazla Türkiye Geneli kurumsal deneme sınavı (Özdebir, Töder, Sinan Kuzucu, Mozaik, Paraf, Hız vb.) uygulanır. Her deneme sonrasında kazanım karnesi çıkarılarak yanlış yapılan sorular birebir etütlerde çözdürülür.
+          </p>
+        </details>
+
+        <details class="group bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
+          <summary class="flex items-center justify-between cursor-pointer font-extrabold text-sm sm:text-base">
+            <span>4. Veli bilgilendirme ve devamsızlık takibi nasıl yapılıyor?</span>
+            <span class="w-7 h-7 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            Öğrencimiz kuruma giriş yaptığında, etüt aldığında veya derse katılmadığında velimize anlık bildirim gider. Ayrıca her hafta eğitim koçumuz velimizi arayarak haftalık ödev tamamlama ve deneme gelişim raporunu paylaşır.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FRANCHISE & İNSAN KAYNAKLARI ==================== -->
+  <section id="franchise-ik" class="py-16 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="grid lg:grid-cols-2 gap-8">
+      <!-- Franchise Kartı -->
+      <div class="hero-aurora text-white rounded-3xl p-7 sm:p-9 shadow-xl flex flex-col justify-between relative overflow-hidden">
+        <div class="space-y-4 relative z-10">
+          <span class="inline-block px-3 py-1 rounded-full bg-gold-400/20 text-gold-300 text-xs font-extrabold uppercase tracking-wider">
+            Kurumsal Bayilik · Franchise
+          </span>
+          <h3 class="font-display text-2xl sm:text-3xl font-extrabold">Çözen Eğitim Franchise Ailesine Katılın</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Manisa Yunusemre, Şehzadeler ve Turgutlu'da başarısını kanıtlamış eğitim modelimizi, kurumsal yayın ve yazılım desteğimizi kendi şehrinize veya ilçenize taşıyın.
+          </p>
+          <ul class="space-y-2 text-xs sm:text-sm text-slate-200 pt-2">
+            <li>✓ Hazır Akademik Müfredat, Koçluk ve Deneme Sınavı Sistemi</li>
+            <li>✓ Yönetici ve Öğretmen Oryantasyon Akademisi</li>
+            <li>✓ Kurumsal Kimlik, Dijital Pazarlama ve Bölge Koruması</li>
+          </ul>
+        </div>
+        <div class="mt-7 relative z-10">
+          <button onclick="openCallbackModal('Franchise (Bayilik) Başvurusu')" class="px-6 py-3.5 rounded-xl bg-gold-400 hover:bg-gold-300 text-slate-950 font-extrabold text-sm transition shadow-lg">
+            🤝 Franchise Bilgi Dosyası Talep Et →
+          </button>
+        </div>
+      </div>
+
+      <!-- İnsan Kaynakları (İK) Kartı -->
+      <div class="bg-white dark:bg-slate-900 rounded-3xl p-7 sm:p-9 border border-slate-200 dark:border-slate-800 shadow-xl flex flex-col justify-between">
+        <div class="space-y-4">
+          <span class="inline-block px-3 py-1 rounded-full bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-sky-300 text-xs font-extrabold uppercase tracking-wider">
+            İnsan Kaynakları · Kariyer
+          </span>
+          <h3 class="font-display text-2xl sm:text-3xl font-extrabold">Akademik Kadromuzda Yerini Al</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+            Mesleğini tutkuyla yapan, öğrenci iletişimi güçlü, yeni nesil soru çözümüne ve eğitim teknolojilerine hakim branş ve sınıf öğretmenlerimizle büyümeye devam ediyoruz.
+          </p>
+          <div class="grid grid-cols-2 gap-3 pt-2 text-xs font-bold text-slate-700 dark:text-slate-300">
+            <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">👩‍🏫 Sınıf & Etüt Öğretmenliği</div>
+            <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">📐 LGS Branş Öğretmenliği</div>
+            <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">🧭 Eğitim Koçu & Rehberlik</div>
+            <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200/60 dark:border-slate-700">🏢 Eğitim Danışmanı</div>
+          </div>
+        </div>
+        <div class="mt-7">
+          <button onclick="openCallbackModal('İnsan Kaynakları Öğretmen / Personel Başvurusu')" class="px-6 py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-sm transition shadow-lg shadow-brand-600/20">
+            📄 Özgeçmiş / İK Başvurusu Gönder →
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== İLETİŞİM BÖLÜMÜ ==================== -->
+  <section id="iletisim" class="py-16 lg:py-20 bg-slate-100/80 dark:bg-slate-900/60 border-t border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-5 space-y-5">
+          <span class="inline-block px-3.5 py-1 rounded-full bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-sky-300 text-xs font-extrabold uppercase tracking-wider">
+            Bize Ulaşın
+          </span>
+          <h2 class="font-display text-2xl sm:text-4xl font-black tracking-tight">İletişime Geçin</h2>
+          <p class="text-sm sm:text-base text-slate-600 dark:text-slate-400">
+            Kurs kayıtları, etüt saatleri, bursluluk sınavı tarihleri veya şubelerimiz hakkında merak ettiğiniz tüm sorular için bize ulaşabilirsiniz.
+          </p>
+
+          <div class="space-y-3.5 pt-2">
+            <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-start gap-3.5 shadow-sm">
+              <span class="text-xl">📍</span>
+              <div class="text-xs sm:text-sm">
+                <strong class="block font-extrabold">Manisa Şubelerimiz</strong>
+                <span class="text-slate-500 dark:text-slate-400">
+                  • <strong>Yunusemre:</strong> Ayn-i Ali Mah. 3302 Sokak No:5-A<br>
+                  • <strong>Şehzadeler:</strong> 2. Anafartalar Mah. Cumhuriyet Cad. No:52<br>
+                  • <strong>Turgutlu:</strong> Şehitler Mah. Şehitler Yolu Cad. No: 1/2/3
+                </span>
+              </div>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center gap-3.5 shadow-sm">
+              <span class="text-xl">📞</span>
+              <div class="text-xs sm:text-sm">
+                <strong class="block font-extrabold">Çağrı Merkezi & Kayıt Hattı</strong>
+                <a href="tel:+902362222727" class="text-brand-600 dark:text-sky-400 font-extrabold">+90 236 222 27 27</a> · <a href="tel:+902363140314" class="text-brand-600 dark:text-sky-400 font-extrabold">(0236) 314 03 14</a>
+              </div>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center gap-3.5 shadow-sm">
+              <span class="text-xl">✉️</span>
+              <div class="text-xs sm:text-sm">
+                <strong class="block font-extrabold">Kurumsal E-Posta</strong>
+                <a href="mailto:sehzadeler@cozenegitim.com" class="text-brand-600 dark:text-sky-400 font-bold">sehzadeler@cozenegitim.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ İletişim Formu -->
+        <div class="lg:col-span-7">
+          <div class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-xl">
+            <h3 class="font-display text-xl font-extrabold mb-1">Mesaj Gönderin</h3>
+            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mb-6">Aşağıdaki formu doldurarak mesajınızı doğrudan şube yönetimimize iletebilirsiniz.</p>
+
+            <form id="contactForm" onsubmit="submitLeadForm(event, 'contactForm')" class="space-y-4">
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold mb-1">Ad-Soyad *</label>
+                  <input type="text" required placeholder="Adınız Soyadınız" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold mb-1">E-posta *</label>
+                  <input type="email" required placeholder="ornek@eposta.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold mb-1">Telefon *</label>
+                  <input type="tel" required placeholder="05XX XXX XX XX" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold mb-1">Konu *</label>
+                  <input type="text" required placeholder="Örn: 7. Sınıf LGS Hazırlık Kayıt Bilgisi" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold mb-1">Mesajınız *</label>
+                <textarea rows="4" required placeholder="Sorunuzu veya mesajınızı buraya yazınız..." class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+              </div>
+
+              <button type="submit" class="px-8 py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-sm shadow-lg shadow-brand-600/25 transition">
+                ✉️ Mesajı Gönder
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-brand-950 text-slate-400 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
+      <div class="space-y-3">
+        <div class="flex items-center gap-2.5 text-white font-display font-black text-lg">
+          <span class="w-9 h-9 rounded-xl bg-brand-600 flex items-center justify-center">🎓</span>
+          <span>ÇÖZEN EĞİTİM</span>
+        </div>
+        <p class="text-xs leading-relaxed text-slate-400">
+          Okula Destek ve Sınava Hazırlıkta Manisa'nın öncü eğitim kurumu. 2. sınıftan 8. sınıf LGS hazırlığa kadar tam kadro yanınızdayız.
+        </p>
+        <div class="text-xs text-slate-300 font-semibold space-y-1">
+          <div>📞 +90 236 222 27 27 · (0236) 314 03 14</div>
+          <div>✉️ sehzadeler@cozenegitim.com</div>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-white font-extrabold mb-3 text-xs uppercase tracking-wider">Kurs Programlarımız</h4>
+        <ul class="space-y-2 text-xs font-semibold">
+          <li><a href="#kurslar" onclick="filterCourses('ilkokul')" class="hover:text-gold-400 transition">2. Sınıf Etüt Programı</a></li>
+          <li><a href="#kurslar" onclick="filterCourses('ilkokul')" class="hover:text-gold-400 transition">3. Sınıf Etüt Programı</a></li>
+          <li><a href="#kurslar" onclick="filterCourses('ilkokul')" class="hover:text-gold-400 transition">4. Sınıf Etüt Programı</a></li>
+          <li><a href="#kurslar" onclick="filterCourses('ortaokul')" class="hover:text-gold-400 transition">5. Sınıf Etüt ve Sınava Ön Hazırlık</a></li>
+          <li><a href="#kurslar" onclick="filterCourses('ortaokul')" class="hover:text-gold-400 transition">6. Sınıf Etüt ve Sınava Ön Hazırlık</a></li>
+          <li><a href="#kurslar" onclick="filterCourses('lgs')" class="hover:text-gold-400 transition">7. Sınıf LGS Hazırlık</a></li>
+          <li><a href="#kurslar" onclick="filterCourses('lgs')" class="hover:text-gold-400 transition">8. Sınıf LGS Hazırlık</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-extrabold mb-3 text-xs uppercase tracking-wider">Kurumsal Menü</h4>
+        <ul class="space-y-2 text-xs font-semibold">
+          <li><a href="#kurumsal" class="hover:text-gold-400 transition">Çözen Eğitim Modeli & Kadromuz</a></li>
+          <li><a href="#subeler" class="hover:text-gold-400 transition">Şubelerimiz (Yunusemre · Şehzadeler · Turgutlu)</a></li>
+          <li><a href="#yorumlar" class="hover:text-gold-400 transition">Veli & Öğrenci Yorumları</a></li>
+          <li><a href="#blog" class="hover:text-gold-400 transition">Rehberlik Blogu</a></li>
+          <li><a href="#franchise-ik" class="hover:text-gold-400 transition">Franchise & İnsan Kaynakları</a></li>
+          <li><button onclick="openKvkkModal()" class="hover:text-gold-400 text-left transition">KVKK Aydınlatma Metni</button></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-extrabold mb-3 text-xs uppercase tracking-wider">Çalışma Saatleri</h4>
+        <div class="space-y-2 text-xs bg-white/5 p-4 rounded-2xl border border-white/10">
+          <div class="flex justify-between"><span>Pazartesi – Cuma:</span> <strong class="text-white">09:00 – 19:30</strong></div>
+          <div class="flex justify-between"><span>Cumartesi:</span> <strong class="text-white">09:00 – 19:30</strong></div>
+          <div class="flex justify-between"><span>Pazar:</span> <strong class="text-white">10:00 – 19:00</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 py-5 text-center text-xs text-slate-500">
+      © 2026 Çözen Eğitim Kurumları. Tüm hakları saklıdır.
+    </div>
+  </footer>
+
+  <!-- ==================== HIZLI İLETİŞİM FLOATING WIDGET ==================== -->
+  <div class="fixed bottom-5 left-5 z-40 flex items-center gap-2">
+    <a href="tel:+902362222727" class="px-4 py-3 rounded-2xl bg-brand-900/95 hover:bg-brand-800 text-white border border-white/15 shadow-2xl flex items-center gap-2 text-xs font-extrabold backdrop-blur-md transition transform hover:-translate-y-0.5">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+      <span>📞 0236 222 27 27</span>
+    </a>
+  </div>
+
+  <!-- ==================== GENEL MODAL (SİZİ ARAYALIM / HAFTALIK PROGRAM / BLOG / KVKK) ==================== -->
+  <div id="appModal" class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white dark:bg-slate-900 rounded-3xl max-w-xl w-full p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-2xl relative my-auto">
+      <button onclick="closeAppModal()" aria-label="Kapat" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-red-100 hover:text-red-600 flex items-center justify-center font-extrabold">
+        ✕
+      </button>
+      <div id="appModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Bildirim Toast -->
+  <div id="toastBox" class="fixed bottom-5 right-5 z-50 hidden bg-emerald-600 text-white px-5 py-3.5 rounded-2xl shadow-2xl font-extrabold text-sm flex items-center gap-2.5">
+    <span>✅</span>
+    <span id="toastText">Talebiniz başarıyla alındı!</span>
+  </div>
+
+  <script>
+    // ==================== 1. KURS VERİLERİ (2. SINIFTAN 8. SINIFA + HAFTALIK PROGRAM) ====================
+    const COURSES = [
+      {
+        id: 'c2',
+        cat: 'ilkokul',
+        badge: 'İlkokul Etüt · 2. Sınıf',
+        title: '2. Sınıf Etüt Programı',
+        icon: '🌱',
+        hours: 'Haftada 5 Gün Ödev & Etüt',
+        quota: 'Max 10 Kişilik Sınıf',
+        color: 'from-emerald-600 to-teal-500',
+        summary: 'Okuma-anlama hızını geliştiren, temel matematik sevgisi kazandıran ve günlük okul ödevlerini sınıf öğretmeni eşliğinde tamamlayan keyifli etüt programı.',
+        features: ['Günlük Okul Ödevi ve Konu Tekrar Takibi', 'Akıcı Okuma ve Anlama Atölyesi', 'Oyunlaştırılmış Temel Matematik', 'Akıl ve Zekâ Oyunları Etkinlikleri'],
+        schedule: 'Pazartesi – Cuma: Okul çıkışı (veya sabahçı gruplar için sabah) 2 ders saati ödev tamamlama + 1 ders saati Türkçe/Matematik konu tekrarı + 1 ders saati okuma ve akıl oyunları.'
+      },
+      {
+        id: 'c3',
+        cat: 'ilkokul',
+        badge: 'İlkokul Etüt · 3. Sınıf',
+        title: '3. Sınıf Etüt Programı',
+        icon: '🚀',
+        hours: 'Haftada 5 Gün Ödev & Etüt',
+        quota: 'Max 10 Kişilik Sınıf',
+        color: 'from-sky-600 to-cyan-500',
+        summary: 'Verimli ders çalışma alışkanlığı kazandıran, Türkçe, Matematik ve Fen Bilimleri temellerini sağlamlaştıran birebir takipli program.',
+        features: ['Birebir Ödev Kontrolü ve Eksik Tamamlama', 'Problem Çözme ve Muhakeme Becerisi', 'Yabancı Dil (İngilizce) Kelime Atölyesi', 'Haftalık Veli Gelişim Bilgilendirmesi'],
+        schedule: 'Pazartesi – Cuma: Günlük okul ödevlerinin yapılması, Matematik problem çözme saatleri, Fen ve İngilizce kelime çalışmaları, Cuma günleri haftalık kazanım değerlendirme uygulaması.'
+      },
+      {
+        id: 'c4',
+        cat: 'ilkokul',
+        badge: 'İlkokul Etüt · 4. Sınıf',
+        title: '4. Sınıf Etüt Programı',
+        icon: '⭐',
+        hours: 'Haftada 5 Gün + Deneme',
+        quota: 'Max 12 Kişilik Sınıf',
+        color: 'from-blue-600 to-indigo-600',
+        summary: 'İlkokuldan ortaokula geçiş sürecinde yazılı sınavlara tam hazırlık, bursluluk sınavı provaları ve disiplinli çalışma temposu.',
+        features: ['Ortaokula Güçlü Akademik Geçiş', '4. Sınıf Bursluluk Sınavı Hazırlığı', 'Okul Yazılılarına %100 Destek', 'Test Çözme ve Süre Yönetimi Eğitimi'],
+        schedule: 'Hafta içi 4 gün ödev ve branş destek etütleri + Hafta sonu kurumsal konu tarama testleri ve ayda 2 kez Türkiye Geneli 4. Sınıf Deneme Sınavı.'
+      },
+      {
+        id: 'c5',
+        cat: 'ortaokul',
+        badge: 'Ortaokul · 5. Sınıf',
+        title: '5. Sınıf Etüt ve Sınava Ön Hazırlık',
+        icon: '🧭',
+        hours: 'Haftalık 14 Ders + Etüt',
+        quota: 'Max 12 Kişilik Sınıf',
+        color: 'from-violet-600 to-purple-600',
+        summary: 'Ortaokulun ilk yılında branş öğretmenleriyle tanışma, MEB açık uçlu yazılı senaryolarına hazırlık ve beceri temelli yeni nesil sorulara geçiş.',
+        features: ['Branş Öğretmenleriyle Konu Anlatımı', 'Yeni Nesil Beceri Temelli Soru Çözümü', 'MEB Yazılı Senaryoları Provası', 'Bireysel Eğitim Koçluğu ve Takip'],
+        schedule: 'Matematik (4 saat), Türkçe (3 saat), Fen Bilimleri (3 saat), İngilizce & Sosyal (4 saat) + Hafta içi birebir soru çözüm ve yazılı senaryo etütleri.'
+      },
+      {
+        id: 'c6',
+        cat: 'ortaokul',
+        badge: 'Ortaokul · 6. Sınıf',
+        title: '6. Sınıf Etüt ve Sınava Ön Hazırlık',
+        icon: '🔬',
+        hours: 'Haftalık 16 Ders + Etüt',
+        quota: 'Max 12 Kişilik Sınıf',
+        color: 'from-fuchsia-600 to-pink-600',
+        summary: 'LGS konularının temelini oluşturan 6. sınıf müfredatında tam hakimiyet, kurumsal deneme sınavları ve analitik düşünme eğitimi.',
+        features: ['LGS Temel Kazanım Kampı', 'Aylık Türkiye Geneli Deneme Sınavları', 'Soru Çözüm Ofisi ve Birebir Etütler', 'Kazanım Bazlı Akıllı Karne Analizi'],
+        schedule: 'Hafta sonu 10 ders saati branş konu anlatımı + Hafta içi 6 ders saati yeni nesil soru çözüm atölyesi, ödev takibi ve birebir eksik kapatma etütleri.'
+      },
+      {
+        id: 'c7',
+        cat: 'lgs',
+        badge: 'Sınava Hazırlık · 7. Sınıf',
+        title: '7. Sınıf LGS Hazırlık Programı',
+        icon: '🎯',
+        hours: 'Haftalık 18 Ders + Koçluk',
+        quota: 'Max 12 Kişilik Sınıf',
+        color: 'from-amber-500 to-orange-600',
+        summary: 'LGS maratonuna bir yıl önceden güçlü başlangıç! 7. sınıf okul başarısını zirveye taşırken 8. sınıf LGS konularına erken adaptasyon.',
+        features: ['Yoğun Yeni Nesil Soru ve Paragraf Kampı', '2 Haftada Bir Türkiye Geneli Deneme Sınavı', 'MEB 1. ve 2. Dönem Yazılı Senaryo Kampları', 'Yaz Dönemi 8. Sınıf Erken LGS Başlangıç Kampı'],
+        schedule: 'Matematik (6 saat), Türkçe & Paragraf (4 saat), Fen Bilimleri (4 saat), Sosyal & İngilizce (4 saat) + Birebir koçluk görüşmesi ve soru çözüm ofisi.'
+      },
+      {
+        id: 'c8',
+        cat: 'lgs',
+        badge: 'Tam Odaklı · 8. Sınıf',
+        title: '8. Sınıf LGS Hazırlık Kampı',
+        icon: '🏆',
+        hours: 'Haftalık 24 Ders + TG Deneme',
+        quota: 'Max 12 Kişilik VİP Grup',
+        color: 'from-brand-800 to-brand-500',
+        summary: 'Nitelikli Fen ve Anadolu Liselerini hedefleyen 8. sınıf öğrencilerimiz için yoğun deneme kulübü, birebir soru çözüm saatleri ve koçluk sistemi.',
+        features: ['Her Hafta Türkiye Geneli Farklı Yayın Denemesi', 'Nokta Atışı Konu Tarama ve Soru Çözüm Ofisi', 'Sınav Kaygısı ve Zaman Yönetimi Koçluğu', 'Yarıyıl ve Nisan Tekrar Kampları + Tercih Danışmanlığı'],
+        schedule: 'Cumartesi-Pazar yoğun LGS konu ve yeni nesil soru dersleri + Her hafta Türkiye Geneli Deneme Sınavı + Hafta içi 4 gün kütüphane kampı ve birebir branş etütleri.'
+      }
+    ];
+
+    // ==================== 2. BLOG YAZILARI ====================
+    const BLOG_POSTS = [
+      {
+        id: 'b1',
+        date: 'Çözen Eğitim Rehberlik Servisi',
+        tag: 'Matematik & LGS',
+        title: 'LGS MATEMATİKTEN KORKMUYORUM!',
+        excerpt: 'Öğrencilerin en çok çekindiği yeni nesil LGS matematik soruları aslında nasıl çözülür? İşlem becerisinden muhakemeye geçişin 4 altın kuralı...',
+        content: `
+          <p class="mb-3">LGS'de öğrencilerin en büyük önyargısı "Matematik soruları çok uzun, yetiştiremiyorum" düşüncesidir. Oysa yeni nesil matematik soruları zor işlem yapmak için değil, <strong>verilen hikayeyi matematik diline çevirebilme</strong> becerisini ölçmek için hazırlanır.</p>
+          <h4 class="font-extrabold text-brand-600 dark:text-sky-400 mt-4 mb-1">1. Kazanımı Bilmeden Yeni Nesil Çözülmez</h4>
+          <p class="mb-3">Önce konunun özünü (örneğin üslü ifadeler veya rasyonel sayılar) klasik sorularla pekiştirin. Temel işlem hızı kazanmadan doğrudan tam sayfa sorulara geçmek özgüveni zedeler.</p>
+          <h4 class="font-extrabold text-brand-600 dark:text-sky-400 mt-4 mb-1">2. Soruyu Parçalara Bölerek Okuyun</h4>
+          <p class="mb-3">Üstteki bilgi kutusunu ve örnek adımı mutlaka inceleyin. Çözen Eğitim Matematik Zümresi olarak her hafta yaptığımız "Soru Çözüm Atölyeleri"nde öğrencilerimize uzun soruyu 30 saniyede şematize etme tekniği kazandırıyoruz.</p>
+        `
+      },
+      {
+        id: 'b2',
+        date: 'Çözen Eğitim Yabancı Dil Zümresi',
+        tag: 'Yabancı Dil Eğitimi',
+        title: 'YABANCI DİL ÖĞRENMEYE NEDEN YABANCIYIZ?',
+        excerpt: 'Yıllarca İngilizce dersi görmemize rağmen neden konuşmakta ve okuduğumuzu anlamakta zorlanıyoruz? Dil öğrenimini kalıcı kılan yöntemler...',
+        content: `
+          <p class="mb-3">Dil, formüllerle ezberlenen bir ders değil, yaşayan bir iletişim aracıdır. Öğrencilerimizin yaptığı en yaygın hata, kelimeleri cümle bağlamından kopuk şekilde liste halinde ezberlemeye çalışmaktır.</p>
+          <h4 class="font-extrabold text-brand-600 dark:text-sky-400 mt-4 mb-1">Bağlam İçinde ve Konuşarak Öğrenme</h4>
+          <p class="mb-3">Çözen Eğitim'de 2. sınıftan 8. sınıfa kadar yabancı dil eğitimini görsel kartlar, diyalog çalışmaları ve ünite içi oyunlarla destekliyoruz. Böylece öğrenci hem okul yazılılarında hem de LGS İngilizce bölümünde 10'da 10 hedefliyor.</p>
+        `
+      },
+      {
+        id: 'b3',
+        date: 'Çözen Eğitim Pedagoji Kurulu',
+        tag: 'Eğitim Felsefesi',
+        title: 'BU NE İŞİMİZE YARAYACAK?',
+        excerpt: 'Öğrencilerin ders çalışırken en sık sorduğu "Öğretmenim bu konu gerçek hayatta ne işimize yarayacak?" sorusunun ilham veren cevabı...',
+        content: `
+          <p class="mb-3">"Bu gerçek hayatta ne işimize yarayacak?" sorusu aslında meraklı bir zihnin en güzel sorusudur. Bir öğrenci öğrendiği bilginin günlük yaşamla bağını kurduğunda öğrenme kalıcı hale gelir.</p>
+          <h4 class="font-extrabold text-brand-600 dark:text-sky-400 mt-4 mb-1">Hayatın İçinden Öğrenme Modeli</h4>
+          <p class="mb-3">Fen dersinde öğrendiği mercekleri ormanda yangın çıkaran kırık cam şişeyle ilişkilendiren, matematikteki rasyonel sayıları alışveriş ve tariflerle birleştiren öğrenci artık dersi bir yük olarak değil, dünyayı anlama anahtarı olarak görür.</p>
+        `
+      }
+    ];
+
+    // ==================== 3. RENDER FONKSİYONLARI ====================
+    function renderCourses(filter = 'all') {
+      const list = filter === 'all' ? COURSES : COURSES.filter(c => c.cat === filter);
+      const grid = document.getElementById('coursesGrid');
+      grid.innerHTML = list.map(c => `
+        <article class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/90 dark:border-slate-800 shadow-lg overflow-hidden flex flex-col justify-between premium-card">
+          <div>
+            <div class="p-6 bg-gradient-to-r ${c.color} text-white">
+              <div class="flex items-center justify-between gap-2">
+                <span class="text-[11px] font-extrabold uppercase tracking-wider bg-black/25 px-3 py-1 rounded-full">${c.badge}</span>
+                <span class="text-2xl bg-white/20 w-11 h-11 rounded-2xl flex items-center justify-center shrink-0">${c.icon}</span>
+              </div>
+              <h3 class="font-display text-xl font-black mt-3">${c.title}</h3>
+              <div class="flex items-center gap-2 mt-2.5 text-[11px] font-bold text-white/90">
+                <span class="bg-white/15 px-2.5 py-0.5 rounded-md">⏱️ ${c.hours}</span>
+                <span class="bg-white/15 px-2.5 py-0.5 rounded-md">👥 ${c.quota}</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+                ${c.summary}
+              </p>
+              <ul class="space-y-2 text-xs font-bold text-slate-700 dark:text-slate-300">
+                ${c.features.map(f => `<li class="flex items-center gap-2"><span class="w-4 h-4 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-[10px] shrink-0">✓</span> <span>${f}</span></li>`).join('')}
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-3 border-t border-slate-100 dark:border-slate-800 grid grid-cols-2 gap-2.5">
+            <button onclick="openScheduleModal('${c.id}')" class="py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-extrabold text-xs transition">
+              📅 Örnek Program
+            </button>
+            <button onclick="openCallbackModal('${c.title} Kayıt ve Ücret Bilgisi')" class="py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-xs shadow-md shadow-brand-600/20 transition">
+              📋 Kayıt Bilgisi →
+            </button>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function filterCourses(cat) {
+      document.querySelectorAll('.cfilter-btn').forEach(btn => {
+        const active = btn.dataset.cfilter === cat;
+        btn.className = active
+          ? 'cfilter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold bg-brand-600 text-white shadow'
+          : 'cfilter-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-brand-600';
+      });
+      renderCourses(cat);
+    }
+
+    function selectGradeQuick(cat) {
+      filterCourses(cat);
+      document.getElementById('kurslar').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function openScheduleModal(courseId) {
+      const c = COURSES.find(x => x.id === courseId);
+      if (!c) return;
+      const modal = document.getElementById('appModal');
+      const content = document.getElementById('appModalContent');
+      content.innerHTML = `
+        <span class="inline-block px-3 py-1 rounded-full bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-sky-300 text-xs font-extrabold mb-2">
+          ${c.badge} · ${c.hours}
+        </span>
+        <h3 class="font-display text-xl sm:text-2xl font-extrabold mb-3">${c.title} – Haftalık İşleyiş</h3>
+        <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+          <strong>📅 Haftalık Akış:</strong><br>${c.schedule}
+        </div>
+        <ul class="space-y-2 text-xs font-bold text-slate-600 dark:text-slate-300 mb-6">
+          ${c.features.map(f => `<li>✓ ${f}</li>`).join('')}
+        </ul>
+        <div class="flex justify-end gap-2.5">
+          <button onclick="closeAppModal()" class="px-4 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 font-bold text-xs">Kapat</button>
+          <button onclick="openCallbackModal('${c.title} Kayıt Randevusu')" class="px-5 py-2.5 rounded-xl bg-brand-600 text-white font-extrabold text-xs">Bu Programa Başvur →</button>
+        </div>
+      `;
+      modal.classList.remove('hidden');
+    }
+
+    function renderBlogs() {
+      const grid = document.getElementById('blogGrid');
+      grid.innerHTML = BLOG_POSTS.map(b => `
+        <article class="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-lg flex flex-col justify-between premium-card">
+          <div>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-400 mb-3">
+              <span class="px-2.5 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 font-extrabold">${b.tag}</span>
+              <span>${b.date}</span>
+            </div>
+            <h3 class="font-display text-lg font-extrabold text-slate-900 dark:text-white mb-2">${b.title}</h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">${b.excerpt}</p>
+          </div>
+          <button onclick="openBlogModal('${b.id}')" class="mt-5 inline-flex items-center gap-1.5 text-xs sm:text-sm font-extrabold text-brand-600 dark:text-sky-400 hover:underline">
+            Makalenin Tamamını Oku →
+          </button>
+        </article>
+      `).join('');
+    }
+
+    // ==================== 4. LGS PUAN & MANİSA LİSE HEDEF SİMÜLATÖRÜ ====================
+    function calcLgsScore() {
+      const tr = Number(document.getElementById('rngTr').value);
+      const mat = Number(document.getElementById('rngMat').value);
+      const fen = Number(document.getElementById('rngFen').value);
+      const ara = Number(document.getElementById('rngAra').value);
+
+      document.getElementById('valTr').textContent = tr;
+      document.getElementById('valMat').textContent = mat;
+      document.getElementById('valFen').textContent = fen;
+      document.getElementById('valAra').textContent = ara;
+
+      const totalNet = tr + mat + fen + ara;
+      const weighted = (tr * 4) + (mat * 4) + (fen * 4) + (ara * 1.3333);
+      const maxWeighted = (20 * 4) + (20 * 4) + (20 * 4) + 40; // 280
+      const score = Math.round(194 + (weighted / maxWeighted) * 306);
+
+      document.getElementById('lgsTotalNet').textContent = totalNet;
+      document.getElementById('lgsEstScore').textContent = score + ' Puan';
+
+      const pctEl = document.getElementById('lgsPercentileBadge');
+      const schoolsEl = document.getElementById('lgsTargetSchools');
+      const adviceEl = document.getElementById('lgsCoachAdvice');
+
+      if (score >= 470) {
+        pctEl.textContent = '%0.4 – %1.5 Dilim';
+        schoolsEl.textContent = '🏆 Manisa Fen Lisesi · Turgutlu Halil Kale Fen Lisesi · İzmir Fen Lisesi Potansiyeli';
+        adviceEl.textContent = '🌟 Muhteşem bir seviyedesin! Çözen Eğitim Derece Grubu ve Türkiye Geneli Deneme Kulübümüzle seni Türkiye derecesine hazırlayabiliriz.';
+      } else if (score >= 430) {
+        pctEl.textContent = '%2.0 – %5.5 Dilim';
+        schoolsEl.textContent = '🎯 Turgutlu Halil Kale Fen Lisesi (Hedef) · Manisa TOBB Bülent Koşmaz Fen Lisesi · Gediz Anadolu Lisesi';
+        adviceEl.textContent = '🚀 Fen Lisesi kapısındasın! Haftalık birebir Matematik ve Fen yeni nesil soru atölyemizle +8 net daha ekleyerek zirveye yerleşebilirsin.';
+      } else if (score >= 385) {
+        pctEl.textContent = '%6.0 – %12.5 Dilim';
+        schoolsEl.textContent = '🏫 Manisa Sosyal Bilimler Lisesi · Manisa Anadolu Lisesi · Turgutlu Anadolu Lisesi';
+        adviceEl.textContent = '💪 Çok güçlü bir temelin var! Kazanım bazlı eksik kapatma etütlerimizle 440+ puan bandına rahatlıkla sıçrayabilirsin.';
+      } else {
+        pctEl.textContent = 'Gelişim Bandı';
+        schoolsEl.textContent = '📈 Hedef: Nitelikli Anadolu ve Fen Liseleri İçin Hızlandırılmış Konu Kampı';
+        adviceEl.textContent = '🧭 Hiç vakit kaybetmeden Çözen Eğitim Birebir Konu Tarama ve Koçluk Kampımıza katılarak her ay düzenli +15 net artış yakalayabilirsin!';
+      }
+    }
+
+    // ==================== 5. MODALLAR & FORM İŞLEMLERİ ====================
+    function openCallbackModal(defaultSubject = 'Genel Bilgi Talebi') {
+      const modal = document.getElementById('appModal');
+      const content = document.getElementById('appModalContent');
+      content.innerHTML = `
+        <span class="inline-block px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 text-xs font-extrabold uppercase mb-2">
+          📞 Çözen Eğitim İletişim Merkezi
+        </span>
+        <h3 class="font-display text-xl sm:text-2xl font-extrabold mb-1">Formu Doldurun, Sizi Arayalım</h3>
+        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mb-5">Seçilen Konu: <strong class="text-brand-600 dark:text-sky-400">${defaultSubject}</strong></p>
+        <form id="modalLeadForm" onsubmit="submitLeadForm(event, 'modalLeadForm')" class="space-y-3.5">
+          <div>
+            <label class="block text-xs font-bold mb-1">Adınız Soyadınız *</label>
+            <input type="text" required placeholder="Ad-Soyad" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold">
+          </div>
+          <div>
+            <label class="block text-xs font-bold mb-1">Telefon Numaranız *</label>
+            <input type="tel" required placeholder="05XX XXX XX XX" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold">
+          </div>
+          <div>
+            <label class="block text-xs font-bold mb-1">Şube Seçiniz *</label>
+            <select class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold">
+              <option>Yunusemre Şubesi</option>
+              <option>Şehzadeler Şubesi</option>
+              <option>Turgutlu Şubesi</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold mb-1">Notunuz (İsteğe Bağlı)</label>
+            <textarea rows="2" placeholder="Öğrencimizin sınıfı veya sormak istediğiniz detay..." class="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm font-semibold"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-sm shadow-lg transition">
+            ✅ Talebi Gönder
+          </button>
+        </form>
+      `;
+      modal.classList.remove('hidden');
+    }
+
+    function openBlogModal(blogId) {
+      const post = BLOG_POSTS.find(b => b.id === blogId);
+      if (!post) return;
+      const modal = document.getElementById('appModal');
+      const content = document.getElementById('appModalContent');
+      content.innerHTML = `
+        <span class="inline-block px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-gold-300 text-xs font-extrabold mb-2">
+          ${post.tag} · ${post.date}
+        </span>
+        <h3 class="font-display text-xl sm:text-2xl font-extrabold mb-4">${post.title}</h3>
+        <div class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+          ${post.content}
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800 flex justify-end">
+          <button onclick="closeAppModal()" class="px-5 py-2.5 rounded-xl bg-brand-600 text-white font-extrabold text-xs">Kapat</button>
+        </div>
+      `;
+      modal.classList.remove('hidden');
+    }
+
+    function openKvkkModal() {
+      const modal = document.getElementById('appModal');
+      const content = document.getElementById('appModalContent');
+      content.innerHTML = `
+        <span class="inline-block px-3 py-1 rounded-full bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-sky-300 text-xs font-extrabold mb-2">
+          Kurumsal · Yasal Bilgilendirme
+        </span>
+        <h3 class="font-display text-xl font-extrabold mb-3">KVKK Kişisel Verilerin Korunması Aydınlatma Metni</h3>
+        <div class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-2.5 leading-relaxed max-h-80 overflow-y-auto pr-2">
+          <p><strong>Çözen Eğitim Kurumları</strong> olarak 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında veli ve öğrencilerimizin kişisel verilerinin güvenliğine en üst düzeyde önem vermekteyiz.</p>
+          <p>İletişim ve "Sizi Arayalım" formları aracılığıyla paylaşılan ad-soyad, telefon ve e-posta bilgileriniz yalnızca eğitim danışmanlarımızın sizinle iletişime geçmesi, kurs/etüt bilgilendirmesi yapılması ve randevu oluşturulması amacıyla işlenmektedir.</p>
+          <p>Verileriniz üçüncü kişilerle kesinlikle paylaşılmamakta olup, <code>sehzadeler@cozenegitim.com</code> adresine yazılı başvuruda bulunarak verilerinizin silinmesini her zaman talep edebilirsiniz.</p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800 flex justify-end">
+          <button onclick="closeAppModal()" class="px-5 py-2.5 rounded-xl bg-brand-600 text-white font-extrabold text-xs">Anladım, Kapat</button>
+        </div>
+      `;
+      modal.classList.remove('hidden');
+    }
+
+    function closeAppModal() {
+      document.getElementById('appModal').classList.add('hidden');
+    }
+
+    function submitLeadForm(e, formId) {
+      e.preventDefault();
+      const form = document.getElementById(formId);
+      if (form) form.reset();
+      closeAppModal();
+      const toast = document.getElementById('toastBox');
+      document.getElementById('toastText').textContent = 'Talebiniz alındı! Eğitim danışmanımız en kısa sürede sizi arayacaktır.';
+      toast.classList.remove('hidden');
+      setTimeout(() => toast.classList.add('hidden'), 4500);
+    }
+
+    // ==================== 6. MOBİL MENÜ & TEMA ====================
+    function toggleMobileMenu() {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    }
+    function closeMobileMenu() {
+      document.getElementById('mobileMenu').classList.add('hidden');
+    }
+    function toggleDarkMode() {
+      const html = document.documentElement;
+      const isDark = html.classList.toggle('dark');
+      document.getElementById('themeToggleBtn').textContent = isDark ? '☀️' : '🌙';
+    }
+
+    // Başlangıç Yüklemeleri
+    renderCourses('all');
+    renderBlogs();
+    calcLgsScore();
+  </script>
+</body>
+</html>
